@@ -1,0 +1,13 @@
+{
+  "name": "freemimoapi",
+  "version": "1.0.0",
+  "description": "Standalone MiMo Free API proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "curl -s http://localhost:9655/v1/chat/completions -H 'Content-Type: application/json' -d '{\"model\":\"mimo-auto\",\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}],\"stream\":false}' | head -c 500"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
