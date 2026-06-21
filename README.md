@@ -23,7 +23,7 @@ Your App → FreeMiMoApi (localhost:9656)
 ## Install
 
 ```bash
-git clone https://github.com/tioyudi0x/FreeMiMoApi.git
+git clone https://github.com/tioyudi/FreeMiMoApi.git
 cd FreeMiMoApi
 npm install
 ```
